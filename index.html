@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprite Animation</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+        <figure>
+            <div class="game-container">
+                <img src="images/level-up-title.png" alt="Level Up game title text" class="game-title" />
+                <canvas id="canvas"></canvas>
+                <div class="control-panel">
+                    <button class="control-button" id="startButton">Start</button>
+                    <button class="control-button" id="stopButton">Stop</button>
+                </div>
+                <audio id="collect-sound" class="click-sound-elem" src="audio/collect-item.mp3" preload="auto"></audio>
+                <button class="reset-button" id="resetButton">Reset</button>
+                <button class="platform-jump platform-1" data-num="1"></button>
+                <button class="platform-jump platform-2" data-num="2"></button>
+                <button class="platform-jump platform-3" data-num="3"></button>
+                <button class="platform-jump platform-4" data-num="4"></button>
+                <button class="platform-jump platform-5" data-num="5"></button>
+            </div>
+            <figcaption>
+                Click each platform to Jump shujah up the different levels!
+            </figcaption>
+        </figure>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
